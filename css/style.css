@@ -1,0 +1,507 @@
+/* All Css
+===========================================================================*/
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+* { padding: 0; margin: 0; font-family: 'Pretendard'; box-sizing: border-box;}
+
+ /* ::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+
+body { width: 100%; background-color: glack; transition: background-color 0.5s linear; color: black;}
+.container { margin-left: auto; margin-right: auto; width: 97%;}
+a { text-decoration: none; color: white; }
+li { list-style-type: none; }
+.flex { display: flex;}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    background-color: black;
+}
+
+
+/* Asset
+===========================================================================*/
+.container { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+li {
+    list-style-type: none;
+}
+.flex {
+    display: flex;
+}
+.title {
+    width: 20%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 160%;
+    color: white;
+}
+.headline-title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 160%;
+    color: white;
+}
+.mainTitle {
+    font-weight: 800;
+}
+.text {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 170%;
+    letter-spacing: 0;
+    padding-top: 30px;
+    text-align: justify;
+    color: white;
+}
+#top {
+
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+}
+#top img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Header
+===========================================================================*/
+header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: top 0.3s ease-in-out;
+    z-index: 9999;
+}
+.header-container {
+    height: 100%;
+    width: 95%;
+    top: 0;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+header:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+.logo {
+    margin-top: 0;
+}
+.logo a img {
+    width: 130px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    margin-left: 30px;
+    font-weight: lighter;
+    color: white;
+}
+
+
+/* Main
+===========================================================================*/
+
+.main-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/img35.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    background-color: black;
+    position: absolute;
+    top: 1000px;
+}
+
+/* Overview
+===========================================================================*/
+.headline-box {
+    width: 60%;
+    /* justify-content: space-between; */
+    margin-top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headline {
+    width: 100%;
+    margin-left: 5%;
+}
+.headlineNotmargin {
+    margin-left: 0;
+}
+.img_1 {
+    margin-top: 100px;
+}
+.img_1 {
+    width: 100%;
+}
+#firstVideo {
+    border: none;
+    width: 100%;
+}
+.text_2 {
+    margin-top: 100px;
+}
+
+.img2 {
+    margin-top: 150px;
+}
+
+.img2 img {
+    width: 70%;
+}
+
+/* Survey
+===========================================================================*/
+#inDepthTitle {
+    margin-top: 50px;
+}
+.survey-box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-top: 150px;
+}
+.survey {
+    width: 100%;
+    height: auto;
+}
+.survey-container {
+    margin-top: 30px;
+}
+.survey-right {
+    float: right;
+}
+.survey-left {
+    float: left;
+}
+.survey-text{
+    padding: 60px 150px;
+    display: block;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.05), 0 10px 10px rgba(0,0,0,0.05);
+}
+.survey-text p {
+    font-size: 34px;
+    font-weight: 400;
+    display: inline;
+}
+#name {
+    font-size: 20px;
+    margin-top: 25px;
+    color: white;
+}
+.both {
+    clear: both;
+}
+.backgroundColor {
+    background-color: white;
+}
+.backgroundColor p {
+    color: black;
+    font-weight: 500;
+}
+.backgroundOp {
+    opacity: 0.3;
+}
+#survey-3 {
+    margin-top: -70px;
+}
+#survey-4 {
+    margin-top: 70px;
+}
+
+
+/* CoreValue
+===========================================================================*/
+#corevalue {
+    width: 95%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 350px;
+    font-size: 20px;
+    color: #8f8f8f;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.corevalue-container {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    color: white;
+
+}
+.corevalue-box {
+    width: 100%;
+    height: auto;
+    margin-right: 30px;
+}
+.corevalue-box h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.corevalue-box img {
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+}
+#corevalue-explanation {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 300;
+    line-height: 150%;
+    color: #8f8f8f;
+}
+#brand-essence {
+    font-size: 18px;
+    margin-top: 80px;
+    color: #8f8f8f;
+}
+#brand-essence-text {
+    font-size: 60px;
+    margin-top: 30px;
+}
+#design-principle {
+    font-size: 18px;
+    margin-top: 100px;
+    color: #8f8f8f;
+}
+#design-principle-text {
+    font-size: 60px;
+    margin-top: 30px;
+}
+.essense-priciple-container {
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.essense-priciple {
+    display: flex;
+}
+
+/* Essense
+===========================================================================*/
+.essense {
+    width: 100%;
+    height: 1300px;
+    background-image: url(../image/img34.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 250px;
+    position: relative;
+}
+.essense-box {
+    position: absolute;
+    bottom: 100px;
+    color: white;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.essense-box h1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 160%;
+}
+.essense-box p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 160%;
+    margin-top: 30px;
+}
+
+/* Horizontal
+===========================================================================*/
+
+.horizontalScroll {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+    margin-top: 250px;
+}
+.page {
+    min-width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.page-1 {
+    background-color: rgb(255,93,93);
+}
+.page-2 {
+    background-color: rgb(113, 121, 235);
+}
+.page-3 {
+    background-color: rgb(98, 198, 36);
+}
+
+/* Naming
+===========================================================================*/
+.naming {
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    color: black;
+}
+.naming-box {
+    margin-left: 60px;
+    padding-top: 70px;
+}
+.naming h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.naming p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 160%;
+    width: 50%;
+    margin-top: 30px;
+}
+
+/* Logo
+===========================================================================*/
+.logo-container {
+    width: 100%;
+}
+.logo {
+    width: 100%;
+    position: relative;
+}
+.logo img {
+    display: block; 
+}
+.logo video {
+    display: block;
+}
+.logo .logo-white-text {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.logo .logo-white-text p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.logo-symbol {
+    display: block;
+}
+.logo-black-text {
+    color: white;
+}
+.logo video {
+    width: 100%;
+    height: auto;
+}
+.color-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+.color-text p {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 120px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    color: white;
+}
+
+/* Typo & Icon
+===========================================================================*/
+.typo {
+    width: 100%;
+}
+.typo-container {
+    width: 97%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.typo-container video {
+    width: 100%;
+}
+
+/* Color System
+===========================================================================*/
+.color-img {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    background-color: black;
+}
+.color-img-box {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.color-img-box img {
+    width: 100%;
+}
+
+.graphic-container {
+    width: 100%;
+}
+.service-container {
+    width: 100%;
+    background-color: white;
+}
+.service-img {
+    width: 95%;
+    padding: 0 0 200px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service-img video {
+    width: 100%;
+}
+.service-img-3 {
+    width: 100%;
+}
+.service-img-3 video {
+    width: 100%;
+}
